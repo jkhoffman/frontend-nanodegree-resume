@@ -24,7 +24,7 @@ var bio = {
         var header = $('#header');
         header.prepend(HTMLheaderRole.replace('%data%', bio.role));
         header.prepend(HTMLheaderName.replace('%data%', bio.name));
-        header.append(HTMLbioPic.replace('%data%', bio.biopic));
+        header.append(HTMLbioPic.replace('%data%', bio.bioPic));
         header.append(HTMLwelcomeMsg.replace('%data%', bio.welcomeMessage));
         bio.appendContacts('#topContacts');
         if (bio.skills.length > 0) {
