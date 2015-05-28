@@ -57,21 +57,21 @@ bio.display();
 var education = {
     schools: [
         {
-            'name': 'School of Communication Arts',
-            'location': 'Raleigh, NC, USA',
-            'degree': 'Certification',
-            'majors': ['Computer Animation I', 'Computer Animation II'],
-            'dates': '1996',
-            'url': 'http://www.living-arts-college.edu/'
+            name: 'School of Communication Arts',
+            location: 'Raleigh, NC, USA',
+            degree: 'Certification',
+            majors: ['Computer Animation I', 'Computer Animation II'],
+            dates: '1996',
+            url: 'http://www.living-arts-college.edu/'
 
         }
     ],
     onlineCourses: [
         {
-            'title': 'Front-End Developer Nanodegree',
-            'school': 'Udacity',
-            'dates': '2015',
-            'url': 'http://udacity.com'
+            title: 'Front-End Developer Nanodegree',
+            school: 'Udacity',
+            dates: '2015',
+            url: 'http://udacity.com'
         }
     ],
     display: function() {
@@ -127,11 +127,11 @@ education.display();
 var work = {
     jobs: [
         {
-            'employer': 'Paragon Principles, Inc.',
-            'title': 'Software Engineer',
-            'location': 'Austin, TX',
-            'dates': '2010-2012',
-            'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vulputate est ' +
+            employer: 'Paragon Principles, Inc.',
+            title: 'Software Engineer',
+            location: 'Austin, TX',
+            dates: '2010-2012',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vulputate est ' +
                 'lacinia. Sed vel purus ac sem euismod dictum. Vivamus convallis nec odio quis commodo. Maecenas ' +
                 'pharetra ex nec porta lobortis. Vestibulum vestibulum tristique nisl, ac dapibus dui pellentesque ' +
                 'condimentum. Mauris feugiat est velit, vel lobortis nibh mattis nec. Ut nulla ligula, lacinia ' +
@@ -142,32 +142,32 @@ var work = {
                 'vehicula vitae.'
         },
         {
-            'employer': 'Nuance Labs, Inc.',
-            'title': 'Chief Technology Officer',
-            'location': 'Charlotte, NC',
-            'dates': '2009-2010',
-            'description': 'Curabitur nec magna ac velit ornare efficitur. Ut ipsum nunc, viverra eu tincidunt at, ' +
+            employer: 'Nuance Labs, Inc.',
+            title: 'Chief Technology Officer',
+            location: 'Charlotte, NC',
+            dates: '2009-2010',
+            description: 'Curabitur nec magna ac velit ornare efficitur. Ut ipsum nunc, viverra eu tincidunt at, ' +
                 'luctus vitae leo. Sed a laoreet ante. Vivamus id tincidunt mauris. Donec rutrum eros eu tristique ' +
                 'faucibus. Fusce eu nunc eu erat eleifend consectetur vulputate in tortor. Sed scelerisque, sapien a ' +
                 'porta fringilla, dui justo condimentum massa, eget semper urna nisl eu felis. Integer a sodales ' +
                 'quam. Nulla facilisi. Etiam posuere vitae felis eget vehicula. Morbi ac congue lacus, id accumsan ante.'
         },
         {
-            'employer': 'Planned Giving Design Center, LLC',
-            'title': 'Chief Technology Officer',
-            'location': 'Matthews, NC',
-            'dates': '2000-2008',
-            'description': 'Nulla nisl mauris, sagittis non tellus a, ornare tempor magna. Fusce viverra est ac ' +
+            employer: 'Planned Giving Design Center, LLC',
+            title: 'Chief Technology Officer',
+            location: 'Matthews, NC',
+            dates: '2000-2008',
+            description: 'Nulla nisl mauris, sagittis non tellus a, ornare tempor magna. Fusce viverra est ac ' +
                 'ligula ultricies, vel pretium arcu pellentesque. Fusce eleifend aliquam nisl vel interdum. Quisque ' +
                 'gravida neque at lorem consequat tincidunt. Morbi eu leo tellus. In dignissim metus venenatis ante ' +
                 'accumsan, ut ultricies ex pretium. Vivamus cursus ligula nec velit iaculis bibendum.'
         },
         {
-            'employer': 'Going Virtual, LLC',
-            'title': 'Software Engineer',
-            'location': 'Matthews, NC',
-            'dates': '1998-2000',
-            'description': 'Sed vitae velit quis felis cursus pulvinar. Morbi tempus felis non lectus rutrum ornare. ' +
+            employer: 'Going Virtual, LLC',
+            title: 'Software Engineer',
+            location: 'Matthews, NC',
+            dates: '1998-2000',
+            description: 'Sed vitae velit quis felis cursus pulvinar. Morbi tempus felis non lectus rutrum ornare. ' +
                 'Praesent nec ipsum elit. Maecenas eget massa non leo semper gravida vitae tempus dui. Nulla nec ' +
                 'sodales ex, ac posuere nisi. Integer faucibus nec eros et consectetur. Phasellus ac libero placerat, ' +
                 'vehicula nisl vel, laoreet nisi. Aliquam tempor porttitor enim, tristique dignissim risus aliquet ' +
@@ -177,11 +177,11 @@ var work = {
                 'finibus velit convallis ultrices.'
         },
         {
-            'employer': 'PhilanthroTec, Inc.',
-            'title': 'Software Engineer',
-            'location': 'Matthews, NC',
-            'dates': '1994-1998',
-            'description': 'Aenean erat massa, euismod volutpat blandit vel, vestibulum quis nisl. Nulla dictum odio ' +
+            employer: 'PhilanthroTec, Inc.',
+            title: 'Software Engineer',
+            location: 'Matthews, NC',
+            dates: '1994-1998',
+            description: 'Aenean erat massa, euismod volutpat blandit vel, vestibulum quis nisl. Nulla dictum odio ' +
                 'eu ex finibus laoreet. Sed facilisis justo rhoncus nulla suscipit rhoncus. Suspendisse potenti. ' +
                 'Vivamus sed suscipit lectus. Suspendisse ac imperdiet mauris. Proin libero quam, accumsan nec libero ' +
                 'hendrerit, sollicitudin tristique libero. Etiam ac justo nibh. Fusce lacinia turpis eget magna ' +
@@ -189,11 +189,11 @@ var work = {
                 'hendrerit. Nam elementum metus non purus tincidunt, sed congue est tristique.'
         },
         {
-            'employer': 'Creative Cybernetics, Inc.',
-            'title': 'System Administrator',
-            'location': 'Charlotte, NC',
-            'dates': '1993-1994',
-            'description': 'Donec nec tellus et nisl tristique rutrum a a erat. Cras feugiat ante et posuere pretium. ' +
+            employer: 'Creative Cybernetics, Inc.',
+            title: 'System Administrator',
+            location: 'Charlotte, NC',
+            dates: '1993-1994',
+            description: 'Donec nec tellus et nisl tristique rutrum a a erat. Cras feugiat ante et posuere pretium. ' +
                 'Morbi imperdiet cursus nibh, id luctus nibh pellentesque non. Aenean ipsum metus, facilisis sed quam ' +
                 'eget, gravida posuere massa. Sed luctus viverra vehicula. Integer vel arcu quis enim tristique ' +
                 'consequat id tincidunt orci. Sed dignissim lorem ut mi hendrerit, sed tincidunt lacus finibus. ' +
