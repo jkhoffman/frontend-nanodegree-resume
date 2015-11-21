@@ -127,25 +127,10 @@ education.display();
 var work = {
     jobs: [
         {
-            employer: 'Paragon Principles, Inc.',
-            title: 'Software Engineer',
-            location: 'Austin, TX',
-            dates: '2010-2012',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec venenatis vulputate est ' +
-                'lacinia. Sed vel purus ac sem euismod dictum. Vivamus convallis nec odio quis commodo. Maecenas ' +
-                'pharetra ex nec porta lobortis. Vestibulum vestibulum tristique nisl, ac dapibus dui pellentesque ' +
-                'condimentum. Mauris feugiat est velit, vel lobortis nibh mattis nec. Ut nulla ligula, lacinia ' +
-                'vulputate varius at, posuere ut lacus. Maecenas dapibus, turpis maximus finibus consequat, metus ' +
-                'lacus finibus ante, non feugiat sapien risus et sapien. Maecenas at luctus sapien. Nam in rhoncus ' +
-                'nisl. Donec posuere accumsan nulla eget ornare. Phasellus vitae rutrum nisl. Ut ac condimentum ' +
-                'ligula. Nunc interdum sed neque consectetur placerat. Nam semper dui nulla, quis scelerisque est ' +
-                'vehicula vitae.'
-        },
-        {
             employer: 'Nuance Labs, Inc.',
             title: 'Chief Technology Officer',
             location: 'Charlotte, NC',
-            dates: '2009-2010',
+            dates: '2007-Present',
             description: 'Curabitur nec magna ac velit ornare efficitur. Ut ipsum nunc, viverra eu tincidunt at, ' +
                 'luctus vitae leo. Sed a laoreet ante. Vivamus id tincidunt mauris. Donec rutrum eros eu tristique ' +
                 'faucibus. Fusce eu nunc eu erat eleifend consectetur vulputate in tortor. Sed scelerisque, sapien a ' +
@@ -156,7 +141,7 @@ var work = {
             employer: 'Planned Giving Design Center, LLC',
             title: 'Chief Technology Officer',
             location: 'Matthews, NC',
-            dates: '2000-2008',
+            dates: '2000-2007',
             description: 'Nulla nisl mauris, sagittis non tellus a, ornare tempor magna. Fusce viverra est ac ' +
                 'ligula ultricies, vel pretium arcu pellentesque. Fusce eleifend aliquam nisl vel interdum. Quisque ' +
                 'gravida neque at lorem consequat tincidunt. Morbi eu leo tellus. In dignissim metus venenatis ante ' +
